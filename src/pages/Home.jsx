@@ -88,27 +88,23 @@ const Home = () => {
         placeRef.current.value = ""
         priceRef.current.value = ""
         dateRef.current.value = ""
-        // getData()
-        // console.log(headingRef.current.innerHTML)
       
-        // console.log(e.target)
-        // console.log("running")
     }
    
 
     const getData = async()=>{
       let res = await axios.get(`https://expensebackend-x1x7.onrender.com/api/expense/getexpense/${user._id}`);
       let data = res.data
-      // console.log(data.expenses) //[{}. {}]
+     
       setArr(data.expenses)
     }
 
 
 
     const handleUpdate = (ans,i)=>{
-      // console.log(ans)
+    
       setselectedId(ans._id)
-      // console.log(i)
+    
       showModal()
     }
 
