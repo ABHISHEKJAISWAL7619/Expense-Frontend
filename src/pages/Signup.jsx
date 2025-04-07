@@ -41,7 +41,7 @@ const Signup = () => {
   }
 
   return (
-    <div>
+    <div className='bg-slate-900'>
       <div className='h-[100vh] flex items-center bg-slate-900'>
       
     
