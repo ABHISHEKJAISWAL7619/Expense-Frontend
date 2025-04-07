@@ -69,7 +69,7 @@ const Signup = () => {
       
       
           </div>
-          <span className='text-white'>Already have a Account <Link  className='text-blue-800' to={"/"} >Click here</Link>  </span>
+          <span className='text-white ml-20'>Already have a Account <Link  className='text-blue-800' to={"/"} >Click here</Link>  </span>
 
     </div>
   )
