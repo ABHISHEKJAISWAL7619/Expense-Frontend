@@ -43,7 +43,7 @@ const Login = () => {
   // console.log(obj)  //  {name:"bcd", course:"fullstack", age:76}
 
   return (
-    <div className='bg-slate-900'>
+   
       <div className='h-[100vh] flex items-center bg-slate-900'>
        
 
@@ -62,11 +62,12 @@ const Login = () => {
          <button onClick={handleSubmit} type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
          
        </form>
+       <span className='text-white '>Already have a Account <Link  className='text-blue-800' to={"/register"} >Click here</Link>  </span>
        
        
            </div>
-           <span className='text-white ml-44'>Already have a Account <Link  className='text-blue-800' to={"/register"} >Click here</Link>  </span>
-    </div>
+           
+   
   )
 }
 
