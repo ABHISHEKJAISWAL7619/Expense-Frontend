@@ -24,7 +24,7 @@ const Login = () => {
     // console.log(res.data)
     if(res.data.success){
       localStorage.setItem( 'expenseLogin',JSON.stringify(res.data.user))
-      navigate('/')
+      navigate('/Home')
     }
     else{
       alert(res.data.msg)

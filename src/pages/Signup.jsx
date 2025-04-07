@@ -31,7 +31,7 @@ const Signup = () => {
     console.log(data)
 
     if(data.success){
-      navigate('/login')
+      navigate('/')
       // navigator('/login')
     }
     else{
@@ -42,6 +42,7 @@ const Signup = () => {
 
   return (
     <div className='h-[100vh] flex items-center bg-slate-900'>
+      <h1 className='font-bold  dark:text-white  ' >Sign up form </h1>
     
        
 
